@@ -1,5 +1,6 @@
 import styles from './header.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
@@ -12,8 +13,10 @@ const Header: React.FC = () => {
           priority
         />
       <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="/profile">Profile</Link>
       </nav>
     </header>
   );
