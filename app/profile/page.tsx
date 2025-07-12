@@ -8,28 +8,90 @@ export default function Profile(){
         <main>
             <Card title='Profile Page'>
                 <div className="flex items-center">
-          <div className="flex-shrink-0" style={{marginLeft: '50px'}}>
+          <div className="flex-shrink-0 flex justify-center items-center" style={{marginLeft: '50px'}}>
             <Image
-              src="/globe.svg"
+              src="/profile.jpg"
               alt='profile'
               width={100}
               height={10}
-              className="rounded-full object-cover"
+              className="rounded-full object-cover items-center"
             />
           </div>
-          <div className="ml-6" style={{marginLeft: '50px'}}>
-            <p className="text-lg font-semibold text-center" style={{color: 'grey', border: '1px solid', borderRadius: '4px', width: '300px'}}>Username</p>
-            <p className="text-lg font-semibold text-center" style={{color: 'grey', border: '1px solid', borderRadius: '4px', width: '300px', marginTop: '20px'}}>E-mail</p>
-            <p className="text-lg font-semibold text-center" style={{color: 'grey', border: '1px solid', borderRadius: '4px', width: '300px', marginTop: '20px'}}>Name</p>
-          </div>
-          <div className="ml-6" style={{marginLeft: '50px'}}>
-            <p className="text-lg font-semibold text-center" style={{color: 'grey', border: '1px solid', borderRadius: '4px', width: '300px'}}>abc</p>
-            <p className="text-lg font-semibold text-center" style={{color: 'grey', border: '1px solid', borderRadius: '4px', width: '300px', marginTop: '20px'}}>def</p>
-            <p className="text-lg font-semibold text-center" style={{color: 'grey', border: '1px solid', borderRadius: '4px', width: '300px', marginTop: '20px'}}>ghi</p>
-          </div>
+          <div className="ml-6" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              Username       
+            </p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '60px'}}>:</p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              abc       
+            </p>
+            <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '175px'}}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              Nama
+            </p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '90px'}}>:</p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              abc       
+            </p>
         </div>
-                <h5 className='font-bold' style={{color: 'black'}}></h5>
-                <Link href="/page">Back</Link>
+        </div>
+        </div>
+        <div className="flex items-center">
+        <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '175px'}}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              Gender
+            </p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '80px'}}>:</p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              abc       
+            </p>
+            <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '175px'}}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              Tanggal Lahir
+            </p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '30px'}}>:</p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              01/01/2000       
+            </p>
+        </div>
+        </div>
+        </div>
+        <div className="flex items-center">
+        <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '175px', marginTop: '35px' }}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              Email
+            </p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '95px'}}>:</p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              abc       
+            </p>
+        </div>
+        <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '177px', marginTop: '35px' }}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              No. HP
+            </p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '83px'}}>:</p>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+              abc       
+            </p>
+        </div>
+        </div>
+        <button
+                style={{
+                padding: '8px 16px',
+                width: '90px',
+                color: 'grey',
+                backgroundColor: 'rgb(223, 208, 184)',
+                cursor: 'pointer',
+                marginRight: 0,
+                borderRadius: '4px',
+                marginLeft: '185px',
+                marginTop: '20px'
+              }}
+            >
+              <Link href="/" className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)'}}>Back</Link>
+          </button>
+          
             </Card>
         </main>
     );

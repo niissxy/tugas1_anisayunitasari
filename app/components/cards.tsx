@@ -23,7 +23,8 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
           max-width: 1000px;
           margin: 32px auto;
           background: #fff;
-           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          text-align:'center';
         }
         .card-body {
           padding: 24px;

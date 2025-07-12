@@ -5,6 +5,7 @@ const Home: React.FC = () => {
     <>
       <Header />
       <main>
+        <p></p>
       </main>
     </>
   );
