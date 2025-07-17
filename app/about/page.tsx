@@ -18,8 +18,8 @@ export default function About(){
                 style={{
                 padding: '8px 16px',
                 width: '90px',
-                color: 'grey',
-                backgroundColor: 'rgb(223, 208, 184)',
+                color: 'white',
+                backgroundColor: 'blue',
                 cursor: 'pointer',
                 marginRight: 0,
                 borderRadius: '4px',
@@ -27,7 +27,7 @@ export default function About(){
                 marginTop: '20px'
               }}
             >
-              <Link href="/" className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)'}}>Back</Link>
+              <Link href="/" className="text-lg text-start" style={{color: 'white'}}>Back</Link>
           </button>
       </Card>
     </main>

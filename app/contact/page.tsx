@@ -13,46 +13,48 @@ export default function Contact(){
             <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
               Username       
             </p>
-            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '60px'}}>:</p>
-            <input type='text' className='text-lg font-semibold text-start' style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '61px'}}>:</p>
+            <input type='text' className='text-lg text-start' style={{color: 'rgb(51, 52, 70)', marginLeft: '10px', border: '1px solid #ccc', borderRadius: '4px', width: '400px'}}>
             </input>
         </div>
         </div>
-          <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '75px'}}>
+          <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '75px', marginTop: '10px'}}>
             <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
               E-mail
             </p>
-            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '90px'}}>:</p>
-            <input type='text' className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+            <p className="text-lg text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '91px'}}>:</p>
+            <input type='text' className="text-lg text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px', border: '1px solid #ccc', borderRadius: '4px',
+            width: '400px'
+            }}>
             </input>
         </div>
-        <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '75px'}}>
+        <div className="ml-6" style={{ display: 'flex', justifyContent: 'left', marginLeft: '75px', marginTop: '10px'}}>
             <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
               Pesan
             </p>
-            <p className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '94px'}}>:</p>
-            <textarea style={{color: 'rgb(51, 52, 70)', marginLeft: '10px'}}>
+            <p className="text-lg text-start" style={{color: 'rgb(51, 52, 70)', marginLeft: '96px'}}>:</p>
+            <textarea style={{color: 'rgb(51, 52, 70)', marginLeft: '10px', border: '1px solid #ccc', borderRadius: '4px', width: '400px'}}>
             </textarea>
         </div>
         <button type='submit'
                 style={{
                 padding: '8px 16px',
                 width: '90px',
-                color: 'grey',
-                backgroundColor: 'rgb(223, 208, 184)',
+                color: 'white',
+                backgroundColor: 'blue',
                 cursor: 'pointer',
                 marginRight: 0,
                 borderRadius: '4px',
                 marginLeft: '25px',
                 marginTop: '20px'
               }}
-            ><Link href="/#" className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)'}}>Submit</Link></button>
+            ><Link href="/#" className="text-lg text-start" style={{color: 'white'}}>Submit</Link></button>
                 <button
                 style={{
                 padding: '8px 16px',
                 width: '90px',
-                color: 'grey',
-                backgroundColor: 'rgb(223, 208, 184)',
+                color: 'white',
+                backgroundColor: 'blue',
                 cursor: 'pointer',
                 marginRight: 0,
                 borderRadius: '4px',
@@ -60,7 +62,7 @@ export default function Contact(){
                 marginTop: '20px'
               }}
             >
-              <Link href="/" className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)'}}>Back</Link>
+              <Link href="/" className="text-lg text-start" style={{color: 'white'}}>Back</Link>
             </button>
             </Card>
         </main>

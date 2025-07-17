@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ title, children }) => {
           border: 1px solid #eaeaea;
           border-radius: 8px;
           overflow: hidden;
-          box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+          box-shadow: 1 10px 10px rgba(0,0,0,0.05);
           max-width: 1000px;
           margin: 32px auto;
           background: #fff;

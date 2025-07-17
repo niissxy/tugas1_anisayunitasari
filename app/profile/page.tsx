@@ -76,21 +76,21 @@ export default function Profile(){
             </p>
         </div>
         </div>
-        <button
-                style={{
-                padding: '8px 16px',
-                width: '90px',
-                color: 'grey',
-                backgroundColor: 'rgb(223, 208, 184)',
-                cursor: 'pointer',
-                marginRight: 0,
-                borderRadius: '4px',
-                marginLeft: '185px',
-                marginTop: '20px'
-              }}
-            >
-              <Link href="/" className="text-lg font-semibold text-start" style={{color: 'rgb(51, 52, 70)'}}>Back</Link>
-          </button>
+         <button
+          style={{
+            padding: '8px 16px',
+            width: '90px',
+            color: 'grey',
+            backgroundColor: 'blue',
+            cursor: 'pointer',
+            marginRight: 0,
+            borderRadius: '4px',
+            marginLeft: '25px',
+            marginTop: '20px'
+          }}
+        >
+          <Link href="/" className="text-lg text-start" style={{color: 'white'}}>Back</Link>
+        </button>
           
             </Card>
         </main>
